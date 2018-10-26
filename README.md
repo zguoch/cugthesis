@@ -5,12 +5,16 @@
 
 # cugthesis
 
-中国地质大学（武汉）学位论文LaTeX模板
+中国地质大学（武汉）学位论文LaTeX模板，有中文版和英文版两种模板可供选择。
+
+使用说明见模板使用例子 **main**或者[简书文章]()
 
 
 -------
 
-关注微信公众号获取更多科研干活更新！
+
+关注微信公众号获取更多科研干货更新！
+
 
 ![微信公众号](http://www.modernfig.cn/_static/TeamMember/weixingongzhong.JPG)
 

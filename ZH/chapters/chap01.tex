@@ -1,5 +1,8 @@
 
 \chapter{引言}
+\label{chapter:Introduction}
+
+本章主要展示章-节-小节格式。
 
 \section{研究背景、目的和意义}
 热液系统是洋中脊活动的重要组成部分，其热通量占全球总热通量的20-25\%，同时也在地表与地壳深部之间物质循环中扮演重要角色。
@@ -38,46 +41,3 @@
 \end{enumerate}
 
 
-
-\section{模板使用方法}
-
-\subsection{插入图片}
-\begin{figure} [htbp] 
-	\centering
-	\includegraphics[width=\textwidth ]{SinglePassModel} 
-	\caption[Single-pass model]{单通道模型} 
-	\fnote{这是一段图注，乱按键盘：惊呆了撒娇来得及电路设计啊附近的骄傲而为的离开静安寺覅额黄飞鸿我积分对时间啊浪费我hi符合换个哈结尾覅哦啊见附件饿哦} 
-	\label{fig:singlepassmodel} 
-\end{figure} 
-
-在这里引用此图，如图 \ref{fig:singlepassmodel} 所示。在论文末尾会自动生成插图索引。
-
-
-\begin{figure} [htbp] 
-	\centering
-	\includegraphics[width=0.5\textwidth ]{weixingongzhong} 
-	\caption[Single-pass model]{Latex模板获取方法} 
-	\fnote{扫码关注微信公众号并发消息\textcolor{red}{latex模板}即可获取模板文件} 
-	\label{fig:template} 
-\end{figure} 
-
-在这里引用此图，如图 \ref{fig:singlepassmodel} 所示。在论文末尾会自动生成插图索引。
-
-\subsection{表格}
-表格与图类似，参见清华大学学位论文模板说明。
-
-\subsection{公式}
-
-行内公式，这个是行内公式 $E=MC^2$，下面是个带编号的独立公式：
-
-\begin{equation}
-	\frac{\partial T}{t} = \lambda \nabla T
-	\label{eq:temperature}
-\end{equation}
-
-这里引用公式，公式\ref{eq:temperature}表示了温度的衰减。
-
-\subsection{参考文献}
-第一种引用方式：\cite{vehling2018implementation} 进行了相分离的数值模拟研究。
-第二种引用方式：三维数值模拟目前仅限于单相流体\citep{coumou2008structure,coumou2006dynamics}。
-这样的引用方式可能更易读一些，有可能地大要求以编号的形式显示，name只需要在main.tex里面把参考引用格式从{cugthesis-author-year}改为{cugthesis-numeric即可}

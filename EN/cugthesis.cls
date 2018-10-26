@@ -214,8 +214,8 @@
 \fancypagestyle{cug@headings}{%
   % 页眉设置
   \fancyhead{}
-  \fancyhead[CO]{\cug@cuniversity\StrRight{\cug@cdegree}{2}学位论文}
-  \fancyhead[CE]{\cug@cauthor\cug@title@sep\cug@ctitle}
+  \fancyhead[CO]{\cug@euniversity\StrRight{\cug@edegree}{2}:\ Thesis}
+  \fancyhead[CE]{\cug@eauthor\cug@title@sep\cug@etitle}
   \fancyhead[RO]{\wuhao\thepage}
   \fancyhead[LE]{\wuhao\thepage}
   % \fancyhead[C]{\wuhao\normalfont\leftmark}
@@ -322,7 +322,7 @@
     % 章标题字体设置
     format={\centering\cug@title@font\ifcug@bachelor\xiaosan[1.333]\else\sanhao[1]\bfseries\fi},
     nameformat=\relax,
-     numberformat=\zhnumber,
+    %  numberformat=\zhnumber,
     titleformat=\cug@chapter@titleformat,
     lofskip=0pt,
     lotskip=0pt,
