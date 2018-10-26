@@ -1,0 +1,287 @@
+./ref/refs.bib:@online{thuthesis,
+./ref/refs.bib:  title =       {\thuthesis: Tinghua},
+./ref/refs.bib:  url =         {https://github.com/xueruini/thuthesis},
+./ref/__latexindent_temp.tex:@online{thuthesis,
+./ref/__latexindent_temp.tex:  title =       {\thuthesis: Tinghua},
+./ref/__latexindent_temp.tex:  url =         {https://github.com/xueruini/thuthesis},
+./main.bbl:\bibitem[Xue(2017)]{thuthesis}
+./main.bbl:\newblock \thuthesis: Tinghua\allowbreak[EB/OL].
+./main.bbl:\newblock \url{https://github.com/xueruini/thuthesis}.
+./thuthesis.cls:%% This is file `thuthesis.cls',
+./thuthesis.cls:%% thuthesis.dtx  (with options: `cls')
+./thuthesis.cls:\ProvidesClass{thuthesis}
+./thuthesis.cls:\def\thuthesis{\textsc{ThuThesis}}
+./thuthesis.cls:  \ClassError{thuthesis}{'type' is deprecated, \MessageBreak
+./thuthesis.cls:  \ClassError{thuthesis}{Option '\CurrentOption' is deprecated, \MessageBreak
+./thuthesis.cls:        \ClassError{thuthesis}%
+./thuthesis.cls:    \ClassError{thuthesis}%
+./thuthesis.cls:    \ClassError{thuthesis}{You have to use the star form: \string\thu@chapter*}{}
+./thuthesis.cls:  \ClassWarning{thuthesis}
+./thuthesis.cls:  \ClassWarning{thuthesis}
+./thuthesis.cls:  \ClassWarning{thuthesis}
+./thuthesis.cls:  \ClassWarning{thuthesis}
+./thuthesis.cls:    pdfcreator={\thuthesis-v\version}}}
+./thuthesis.cls:\expandafter\newcommand\csname bibstyle@thuthesis-numeric\endcsname{%
+./thuthesis.cls:\expandafter\newcommand\csname bibstyle@thuthesis-author-year\endcsname{%
+./thuthesis.cls:\AtEndOfClass{\input{thuthesis.cfg}}
+./thuthesis.cls:%% End of file `thuthesis.cls'.
+./thuthesis.cfg:%% This is file `thuthesis.cfg',
+./thuthesis.cfg:%% thuthesis.dtx  (with options: `cfg')
+./thuthesis.cfg:\ProvidesFile{thuthesis.cfg}
+./thuthesis.cfg:%% End of file `thuthesis.cfg'.
+./thuthesis.sty:\ProvidesPackage{thuthesis}[2007/11/30 4.1 put any packages you would like to use here]
+./dtx-style.sty:%% thuthesis.dtx  (with options: `dtx-style')
+./dtx-style.sty:\def\thuthesis{\textsc{Thu}\-\textsc{Thesis}}
+./Makefile:PACKAGE=thuthesis
+./Makefile:	@ag 'Tsinghua University Thesis Template|\\def\\version|"version":' thuthesis.dtx package.json
+./thuthesis.idx:\indexentry{thuthesis.cls={\ttfamily thuthesis.cls} (file)|hdclindex{1}{usage}}{4}
+./thuthesis.idx:\indexentry{file:>thuthesis.cls={\ttfamily thuthesis.cls}|hdclindex{1}{usage}}{4}
+./thuthesis.idx:\indexentry{thuthesis.cfg={\ttfamily thuthesis.cfg} (file)|hdclindex{2}{usage}}{4}
+./thuthesis.idx:\indexentry{file:>thuthesis.cfg={\ttfamily thuthesis.cfg}|hdclindex{2}{usage}}{4}
+./thuthesis.idx:\indexentry{thuthesis.ins={\ttfamily thuthesis.ins} (file)|hdclindex{3}{usage}}{4}
+./thuthesis.idx:\indexentry{file:>thuthesis.ins={\ttfamily thuthesis.ins}|hdclindex{3}{usage}}{4}
+./thuthesis.idx:\indexentry{thuthesis.dtx={\ttfamily thuthesis.dtx} (file)|hdclindex{4}{usage}}{4}
+./thuthesis.idx:\indexentry{file:>thuthesis.dtx={\ttfamily thuthesis.dtx}|hdclindex{4}{usage}}{4}
+./thuthesis.idx:\indexentry{thuthesis.cls={\ttfamily thuthesis.cls} (file)|hdclindex{5}{usage}}{4}
+./thuthesis.idx:\indexentry{file:>thuthesis.cls={\ttfamily thuthesis.cls}|hdclindex{5}{usage}}{4}
+./thuthesis.idx:\indexentry{thuthesis.cfg={\ttfamily thuthesis.cfg} (file)|hdclindex{6}{usage}}{4}
+./thuthesis.idx:\indexentry{file:>thuthesis.cfg={\ttfamily thuthesis.cfg}|hdclindex{6}{usage}}{4}
+./thuthesis.idx:\indexentry{thuthesis.pdf={\ttfamily thuthesis.pdf} (file)|hdclindex{7}{usage}}{4}
+./thuthesis.idx:\indexentry{file:>thuthesis.pdf={\ttfamily thuthesis.pdf}|hdclindex{7}{usage}}{4}
+./thuthesis.idx:\indexentry{thuthesis-vX.Y.Z={\ttfamily thuthesis-vX.Y.Z} (file)|hdclindex{8}{usage}}{4}
+./thuthesis.idx:\indexentry{file:>thuthesis-vX.Y.Z={\ttfamily thuthesis-vX.Y.Z}|hdclindex{8}{usage}}{4}
+./thuthesis.idx:\indexentry{thuthesis.ins={\ttfamily thuthesis.ins} (file)|hdclindex{9}{usage}}{4}
+./thuthesis.idx:\indexentry{file:>thuthesis.ins={\ttfamily thuthesis.ins}|hdclindex{9}{usage}}{4}
+./thuthesis.idx:\indexentry{thuthesis.dtx={\ttfamily thuthesis.dtx} (file)|hdclindex{10}{usage}}{4}
+./thuthesis.idx:\indexentry{file:>thuthesis.dtx={\ttfamily thuthesis.dtx}|hdclindex{10}{usage}}{4}
+./thuthesis.idx:\indexentry{thuthesis-numeric.bst={\ttfamily thuthesis-numeric.bst} (file)|hdclindex{11}{usage}}{4}
+./thuthesis.idx:\indexentry{file:>thuthesis-numeric.bst={\ttfamily thuthesis-numeric.bst}|hdclindex{11}{usage}}{4}
+./thuthesis.idx:\indexentry{thuthesis-author-year.bst={\ttfamily thuthesis-author-year.bst} (file)|hdclindex{12}{usage}}{4}
+./thuthesis.idx:\indexentry{file:>thuthesis-author-year.bst={\ttfamily thuthesis-author-year.bst}|hdclindex{12}{usage}}{4}
+./thuthesis.idx:\indexentry{thuthesis.sty={\ttfamily thuthesis.sty} (file)|hdclindex{15}{usage}}{4}
+./thuthesis.idx:\indexentry{file:>thuthesis.sty={\ttfamily thuthesis.sty}|hdclindex{15}{usage}}{4}
+./thuthesis.idx:\indexentry{thuthesis.cls={\ttfamily thuthesis.cls} (file)|hdclindex{16}{usage}}{4}
+./thuthesis.idx:\indexentry{file:>thuthesis.cls={\ttfamily thuthesis.cls}|hdclindex{16}{usage}}{4}
+./thuthesis.idx:\indexentry{thuthesis.ins={\ttfamily thuthesis.ins} (file)|hdclindex{28}{usage}}{5}
+./thuthesis.idx:\indexentry{file:>thuthesis.ins={\ttfamily thuthesis.ins}|hdclindex{28}{usage}}{5}
+./thuthesis.idx:\indexentry{thuthesis.dtx={\ttfamily thuthesis.dtx} (file)|hdclindex{29}{usage}}{5}
+./thuthesis.idx:\indexentry{file:>thuthesis.dtx={\ttfamily thuthesis.dtx}|hdclindex{29}{usage}}{5}
+./thuthesis.idx:\indexentry{thuthesis-author-year.bst={\ttfamily thuthesis-author-year.bst} (file)|hdclindex{30}{usage}}{5}
+./thuthesis.idx:\indexentry{file:>thuthesis-author-year.bst={\ttfamily thuthesis-author-year.bst}|hdclindex{30}{usage}}{5}
+./thuthesis.idx:\indexentry{thuthesis-numeric.bst={\ttfamily thuthesis-numeric.bst} (file)|hdclindex{31}{usage}}{5}
+./thuthesis.idx:\indexentry{file:>thuthesis-numeric.bst={\ttfamily thuthesis-numeric.bst}|hdclindex{31}{usage}}{5}
+./thuthesis.idx:\indexentry{thuthesis.cls={\ttfamily thuthesis.cls} (file)|hdclindex{32}{usage}}{5}
+./thuthesis.idx:\indexentry{file:>thuthesis.cls={\ttfamily thuthesis.cls}|hdclindex{32}{usage}}{5}
+./thuthesis.idx:\indexentry{thuthesis.cfg={\ttfamily thuthesis.cfg} (file)|hdclindex{33}{usage}}{5}
+./thuthesis.idx:\indexentry{file:>thuthesis.cfg={\ttfamily thuthesis.cfg}|hdclindex{33}{usage}}{5}
+./thuthesis.idx:\indexentry{thuthesis-author-year.bst={\ttfamily thuthesis-author-year.bst} (file)|hdclindex{34}{usage}}{5}
+./thuthesis.idx:\indexentry{file:>thuthesis-author-year.bst={\ttfamily thuthesis-author-year.bst}|hdclindex{34}{usage}}{5}
+./thuthesis.idx:\indexentry{thuthesis-numeric.bst={\ttfamily thuthesis-numeric.bst} (file)|hdclindex{35}{usage}}{5}
+./thuthesis.idx:\indexentry{file:>thuthesis-numeric.bst={\ttfamily thuthesis-numeric.bst}|hdclindex{35}{usage}}{5}
+./thuthesis.idx:\indexentry{thuthesis.cls={\ttfamily thuthesis.cls} (file)|hdclindex{36}{usage}}{6}
+./thuthesis.idx:\indexentry{file:>thuthesis.cls={\ttfamily thuthesis.cls}|hdclindex{36}{usage}}{6}
+./thuthesis.idx:\indexentry{thuthesis.cfg={\ttfamily thuthesis.cfg} (file)|hdclindex{37}{usage}}{6}
+./thuthesis.idx:\indexentry{file:>thuthesis.cfg={\ttfamily thuthesis.cfg}|hdclindex{37}{usage}}{6}
+./thuthesis.idx:\indexentry{thuthesis-numeric.bst={\ttfamily thuthesis-numeric.bst} (file)|hdclindex{38}{usage}}{6}
+./thuthesis.idx:\indexentry{file:>thuthesis-numeric.bst={\ttfamily thuthesis-numeric.bst}|hdclindex{38}{usage}}{6}
+./thuthesis.idx:\indexentry{thuthesis-author-year.bst={\ttfamily thuthesis-author-year.bst} (file)|hdclindex{39}{usage}}{6}
+./thuthesis.idx:\indexentry{file:>thuthesis-author-year.bst={\ttfamily thuthesis-author-year.bst}|hdclindex{39}{usage}}{6}
+./thuthesis.idx:\indexentry{thuthesis.cfg={\ttfamily thuthesis.cfg} (file)|hdclindex{176}{usage}}{19}
+./thuthesis.idx:\indexentry{file:>thuthesis.cfg={\ttfamily thuthesis.cfg}|hdclindex{176}{usage}}{19}
+./thuthesis.idx:\indexentry{thuthesis=\verb!*+\thuthesis+|hdclindex{183}{}}{7}
+./thuthesis.idx:\indexentry{thuthesis=\verb!*+\thuthesis+|hdclindex{1130}{}}{853}
+./main.tex:\documentclass[degree=doctor,secret]{thuthesis}
+./main.tex:\usepackage{thuthesis}
+./main.tex:%\bibliographystyle{thuthesis-numeric}
+./main.tex: \bibliographystyle{thuthesis-author-year}
+./README.md:请[下载](https://github.com/xueruini/thuthesis/releases)模板，里面包括具体使用说明以及示例文档：
+./README.md:* 模板使用说明 (thuthesis.pdf)
+./README.md:* 发行版：[CTAN](http://www.ctan.org/pkg/thuthesis)
+./README.md:* 开发版：[GitHub](https://github.com/xueruini/thuthesis)
+./README.md:通过TeX发行版工具自动从[CTAN](http://www.ctan.org/pkg/thuthesis)更新。
+./README.md:从 [GitHub](https://github.com/xueruini/thuthesis)下载放入论文目录，执行命令（Windows 用户在文件夹空白处按`Shift+鼠标右键`，点击“在此处打开命令行窗口”）：
+./README.md:    latex thuthesis.ins
+./README.md:即可得到 `thuthesis.cls` 和 `thuthesis.cfg` 等模板文件。
+./README.md:* 先到 [FAQ](https://github.com/xueruini/thuthesis/wiki/FAQ) 看看常见问题
+./README.md:* [Github Issues](http://github.com/xueruini/thuthesis/issues)
+./README.md:* [ThuThesis@Google Groups](http://groups.google.com/group/thuthesis)
+./README.md:* `make doc`       生成使用说明书 thuthesis.pdf；
+./package.json:  "name": "thuthesis",
+./package.json:    "url": "git+https://github.com/xueruini/thuthesis.git"
+./package.json:    "url": "https://github.com/xueruini/thuthesis/issues"
+./package.json:  "homepage": "https://github.com/xueruini/thuthesis",
+./shuji.tex:\documentclass[degree=master]{thuthesis}
+./gulpfile.js:const packageName = 'thuthesis';
+./gulpfile.js:        files: ['thuthesis.ins',
+./gulpfile.js:                'thuthesis.dtx',
+./gulpfile.js:                'thuthesis-numeric.bst',
+./gulpfile.js:                'thuthesis-author-year.bst',
+./gulpfile.js:                'thuthesis.pdf'],
+./gulpfile.js:        generated: ['thuthesis.cls',
+./gulpfile.js:                    'thuthesis.cfg']
+./gulpfile.js:                'thuthesis.sty',
+./gulpfile.js:    util.log(util.colors.yellow('⚠️  Double check versions and dates: `make check`, 3 in thuthesis.dtx and 1 in package.json.'));
+./thuthesis.ins:\usedir{tex/latex/thuthesis}
+./thuthesis.ins:  \Msg{* The recommended directory is TEXMF/tex/latex/thuthesis}
+./thuthesis.ins:  \Msg{* \space\space thuthesis.cls}
+./thuthesis.ins:  \Msg{* \space\space thuthesis.cfg}
+./thuthesis.ins:  \Msg{* \space\space thuthesis-author-year.bst}
+./thuthesis.ins:  \Msg{* \space\space thuthesis-numeric.bst}
+./thuthesis.dtx:\ProvidesFile{thuthesis.dtx}[2017/12/24 5.4.3 Tsinghua University Thesis Template]
+./thuthesis.dtx:% \title{\bfseries\color{violet}\thuthesis：中国地质大学（武汉）学位论文模板}
+./thuthesis.dtx:% \thuthesis\ (\textbf{T}sing\textbf{h}ua \textbf{U}niversity \LaTeX\
+./thuthesis.dtx:% 用法，否则即便用了 \thuthesis\ 也难以保证输出的论文符合学校规范。}
+./thuthesis.dtx:% \thuthesis\ 已经包含在主要的 \TeX\ 发行版中，一般不需要安装，可以利用发行版自
+./thuthesis.dtx:% $ texdoc thuthesis
+./thuthesis.dtx:% 如果要使用开发版，需自己下载，\thuthesis\ 相关链接：
+./thuthesis.dtx:% \item 主页：\href{https://github.com/xueruini/thuthesis}{GitHub}
+./thuthesis.dtx:% \item 下载：\href{http://www.ctan.org/pkg/thuthesis}{CTAN}
+./thuthesis.dtx:% 下表列出了 \thuthesis\ 的主要文件及其功能介绍：
+./thuthesis.dtx:% thuthesis.ins & \textsc{DocStrip} 驱动文件（开发用） \\
+./thuthesis.dtx:% thuthesis.dtx & \textsc{DocStrip} 源文件（开发用）\\\midrule
+./thuthesis.dtx:% thuthesis.cls & 模板类文件\\
+./thuthesis.dtx:% thuthesis.cfg & 模板配置文件\\
+./thuthesis.dtx:% thuthesis-numeric.bst & 参考文献样式文件\\
+./thuthesis.dtx:% thuthesis-author-year.bst & 参考文献样式文件\\\midrule
+./thuthesis.dtx:% thuthesis.sty & 为示例文档加载其它宏包\\\midrule
+./thuthesis.dtx:% \textbf{thuthesis.pdf} & 用户手册（本文档）\\\bottomrule
+./thuthesis.dtx:% \item \file{thuthesis.cls} 和 \file{thuthesis.cfg} 可由 \file{thuthesis.ins}
+./thuthesis.dtx:%   和 \file{thuthesis.dtx} 生成，但为了降低新手用户的使用难度，故
+./thuthesis.dtx:%   将 \file{thuthesis.cls} 和 \file{thuthesis.cfg} 文件一起发布。
+./thuthesis.dtx:% \item 使用前阅读文档：\file{thuthesis.pdf}。
+./thuthesis.dtx:% \note[提示：]{若使用 \TeX 发行版自带的 \thuthesis\ 或 Github 上发布的版本，可忽
+./thuthesis.dtx:% 模板解压缩后生成文件夹 \file{thuthesis-vX.Y.Z}\footnote{\texttt{vX.Y.Z} 为版本
+./thuthesis.dtx:% 号。}，其中包括：模板源文件（\file{thuthesis.ins} 和 \file{thuthesis.dtx}），参
+./thuthesis.dtx:% 考文献样式 \file{thuthesis-numeric.bst} 和 \file{thuthesis-author-year.bst}，示例文档
+./thuthesis.dtx:% （\file{main.tex}，\file{shuji.tex}，\file{thuthesis.sty}\footnote{可能用到的包
+./thuthesis.dtx:% 以及一些命令定义都放在这里，以免 \file{thuthesis.cls} 过分臃
+./thuthesis.dtx:% $ cd thuthesis-vX.Y.Z
+./thuthesis.dtx:% # 生成 thuthesis.cls 和 thuthesis.cfg
+./thuthesis.dtx:% $ latex thuthesis.ins
+./thuthesis.dtx:% $ xelatex thuthesis.dtx
+./thuthesis.dtx:% $ makeindex -s gind.ist -o thuthesis.ind thuthesis.idx
+./thuthesis.dtx:% $ makeindex -s gglo.ist -o thuthesis.gls thuthesis.glo
+./thuthesis.dtx:% $ xelatex thuthesis.dtx
+./thuthesis.dtx:% $ xelatex thuthesis.dtx  % 生成说明文档 thuthesis.pdf
+./thuthesis.dtx:% 上面的方法虽然不复杂，但是每次都输入还是非常罗嗦，所以 \thuthesis\ 提供了一
+./thuthesis.dtx:% $ make cls       # 生成 thuthesis.cls 和 thuthesis.cfg
+./thuthesis.dtx:% $ make doc       # 生成说明文档 thuthesis.pdf
+./thuthesis.dtx:% \thuthesis\ 的 \file{Makefile} 默认用 \texttt{latexmk} 调用\texttt{xelatex} 编
+./thuthesis.dtx:% \thuthesis\ 升级非常简单，可以通过 \TeX 发行版的包管理工具自动更新发行版，也可
+./thuthesis.dtx:% 将 \file{thuthesis.ins}，\file{thuthesis.dtx}，\file{thuthesis-author-year.bst}
+./thuthesis.dtx:% 和 \file{thuthesis-numeric.bst} 拷贝至工作目录覆盖相应的文件，然后运行：
+./thuthesis.dtx:% $ latex thuthesis.ins
+./thuthesis.dtx:% 贝 \file{thuthesis.cls}，\file{thuthesis.cfg}，\file{thuthesis-author-year.bst}
+./thuthesis.dtx:% 和 \file{thuthesis-numeric.bst}，免去上面命令的执行。
+./thuthesis.dtx:% \item \href{http://github.com/xueruini/thuthesis/issues}{Github Issues}
+./thuthesis.dtx:% \item \href{http://groups.google.com/group/thuthesis}{ThuThesis@Google Groups}
+./thuthesis.dtx:% 有：\file{thuthesis.cls}，\file{thuthesis.cfg}，\file{thuthesis-numeric.bst} 和
+./thuthesis.dtx:% \file{thuthesis-author-year.bst}，但是如果没有示例文档用户会发现很难下手。所以推
+./thuthesis.dtx:% \documentclass[degree=doctor]{thuthesis}
+./thuthesis.dtx:% \documentclass[degree=master]{thuthesis}
+./thuthesis.dtx:% \documentclass[secret]{thuthesis} % 打开保密
+./thuthesis.dtx:% \documentclass[secret=false]{thuthesis} % 关闭保密
+./thuthesis.dtx:% \documentclass[pifootnote]{thuthesis}
+./thuthesis.dtx:% 是 \thuthesis\ 的默认选项。在这种情况下，如果前一章的最后一页也是奇数，那么模板
+./thuthesis.dtx:% 是 \option{openany}。}。这两个选项不用设置，\thuthesis\ 会根据当前论文类型自动选
+./thuthesis.dtx:% \bibliographystyle{thuthesis-numeric}
+./thuthesis.dtx:% \bibliographystyle{thuthesis-author-year}
+./thuthesis.dtx:%   还要特别感谢 \thuthesis\ 节省了论文排版时间！
+./thuthesis.dtx:% \documentclass[degree=master]{thuthesis}
+./thuthesis.dtx:% \thuthesis\ 定义了常用的数学环境：
+./thuthesis.dtx:% 模板的配置文件 \file{thuthesis.cfg} 中定义了很多固定词汇，一般无须修改。如果有特殊需求，
+./thuthesis.dtx:% 感谢这些年来一直陪伴 \thuthesis\ 成长的新老同学！
+./thuthesis.dtx:% 欢迎各位到 \href{http://github.com/xueruini/thuthesis/}{\thuthesis\ Github 主页}贡献！
+./thuthesis.dtx:%<cls>\ProvidesClass{thuthesis}
+./thuthesis.dtx:%<cfg>\ProvidesFile{thuthesis.cfg}
+./thuthesis.dtx:\def\thuthesis{\textsc{ThuThesis}}
+./thuthesis.dtx:  \ClassError{thuthesis}{'type' is deprecated, \MessageBreak
+./thuthesis.dtx:  \ClassError{thuthesis}{Option '\CurrentOption' is deprecated, \MessageBreak
+./thuthesis.dtx:        \ClassError{thuthesis}%
+./thuthesis.dtx:    \ClassError{thuthesis}%
+./thuthesis.dtx:    \ClassError{thuthesis}{You have to use the star form: \string\thu@chapter*}{}
+./thuthesis.dtx:  \ClassWarning{thuthesis}
+./thuthesis.dtx:  \ClassWarning{thuthesis}
+./thuthesis.dtx:  \ClassWarning{thuthesis}
+./thuthesis.dtx:  \ClassWarning{thuthesis}
+./thuthesis.dtx:    pdfcreator={\thuthesis-v\version}}}
+./thuthesis.dtx:\expandafter\newcommand\csname bibstyle@thuthesis-numeric\endcsname{%
+./thuthesis.dtx:\expandafter\newcommand\csname bibstyle@thuthesis-author-year\endcsname{%
+./thuthesis.dtx:\AtEndOfClass{\input{thuthesis.cfg}}
+./thuthesis.dtx:\def\thuthesis{\textsc{Thu}\-\textsc{Thesis}}
+./data/appendix01.tex:    \multirow{2}{1.5cm}{Xue} & Rui  & Ni &\multicolumn{4}{c|}{\multirow{2}*{\thuthesis}}\\\cline{2-3}
+./data/appendix01.tex:    \multirow{2}{1.5cm}{Xue} & Rui  & Ni &\multicolumn{4}{c|}{\multirow{2}*{\thuthesis}}\\\cline{2-3}
+./data/ack.aux:\citation{thuthesis}
+./data/chap01.tex:这是 \thuthesis\cite{thuthesis} 的示例文档，基本上覆盖了模板中所有格式的设置。建
+./data/chap01.tex:议大家在使用模板之前，除了阅读《\thuthesis{}用户手册》，这个示例文档也最好能看一
+./data/chap01.tex:      thuthesis.ins & \LaTeX{} 安装文件，\textsc{DocStrip}\footnote{表格中的脚注} \\
+./data/chap01.tex:      thuthesis.dtx & 所有的一切都在这里面\footnote{再来一个}。\\
+./data/chap01.tex:      thuthesis.cls & 模板类文件。\\
+./data/chap01.tex:      thuthesis.cfg & 模板配置文。cls 和 cfg 由前两个文件生成。\\
+./data/chap01.tex:      thuthesis-numeric.bst    & 参考文献 BIB\TeX\ 样式文件。\\
+./data/chap01.tex:      thuthesis-author-year.bst    & 参考文献 BIB\TeX\ 样式文件。\\
+./data/chap01.tex:      thuthesis.sty   & 常用的包和命令写在这里，减轻主文件的负担。\\
+./data/chap01.tex:    \footnotesize 注：数据来源《\thuthesis{} 使用手册》。\\
+./data/chap01.tex:    \multirow{2}{1.5cm}{Xue} & Rui  & Ni &\multicolumn{4}{c|}{\multirow{2}*{\thuthesis}}\\\cline{2-3}
+./data/chap01.tex:      \framebox(150,50)[c]{\thuthesis}
+./data/chap01.tex:本模板推荐使用 BIB\TeX，分别提供数字引用（\texttt{thuthesis-numeric.bst}）和作
+./data/chap01.tex:者年份引用（\texttt{thuthesis-author-year.bst}）样式，基本符合学校的参考文献格式
+./data/cover.tex:  本文介绍中国地质大学（武汉）论文模板 \thuthesis{} 的使用方法。本模板符合学校的本科、硕士、
+./data/__latexindent_temp.tex:这是 \thuthesis\cite{thuthesis} 的示例文档，基本上覆盖了模板中所有格式的设置。建
+./data/__latexindent_temp.tex:议大家在使用模板之前，除了阅读《\thuthesis{}用户手册》，这个示例文档也最好能看一
+./data/__latexindent_temp.tex:      thuthesis.ins & \LaTeX{} 安装文件，\textsc{DocStrip}\footnote{表格中的脚注} \\
+./data/__latexindent_temp.tex:      thuthesis.dtx & 所有的一切都在这里面\footnote{再来一个}。\\
+./data/__latexindent_temp.tex:      thuthesis.cls & 模板类文件。\\
+./data/__latexindent_temp.tex:      thuthesis.cfg & 模板配置文。cls 和 cfg 由前两个文件生成。\\
+./data/__latexindent_temp.tex:      thuthesis-numeric.bst    & 参考文献 BIB\TeX\ 样式文件。\\
+./data/__latexindent_temp.tex:      thuthesis-author-year.bst    & 参考文献 BIB\TeX\ 样式文件。\\
+./data/__latexindent_temp.tex:      thuthesis.sty   & 常用的包和命令写在这里，减轻主文件的负担。\\
+./data/__latexindent_temp.tex:    \footnotesize 注：数据来源《\thuthesis{} 使用手册》。\\
+./data/__latexindent_temp.tex:    \multirow{2}{1.5cm}{Xue} & Rui  & Ni &\multicolumn{4}{c|}{\multirow{2}*{\thuthesis}}\\\cline{2-3}
+./data/__latexindent_temp.tex:      \framebox(150,50)[c]{\thuthesis}
+./data/__latexindent_temp.tex:本模板推荐使用 BIB\TeX，分别提供数字引用（\texttt{thuthesis-numeric.bst}）和作
+./data/__latexindent_temp.tex:者年份引用（\texttt{thuthesis-author-year.bst}）样式，基本符合学校的参考文献格式
+./data/chap01.aux:\citation{thuthesis}
+./data/ack.tex:  感谢 \LaTeX 和 \thuthesis\cite{thuthesis}，帮我节省了不少时间。
+./__latexindent_temp.tex:\documentclass[degree=master]{thuthesis}
+./__latexindent_temp.tex:\usepackage{thuthesis}
+./__latexindent_temp.tex:\bibliographystyle{thuthesis-numeric}
+./__latexindent_temp.tex:% \bibliographystyle{thuthesis-author-year}
+./thuthesis.log:**/MyData/Research/4-PhDthesis/latex/main/thuthesis.dtx
+./thuthesis.log:(/MyData/Research/4-PhDthesis/latex/main/thuthesis.dtx
+./thuthesis.log:File: thuthesis.dtx 2017/12/24 5.4.3 Tsinghua University Thesis Template
+./thuthesis.log:\openout3 = `thuthesis.idx'.
+./thuthesis.log:Writing index file thuthesis.idx
+./thuthesis.log:\openout4 = `thuthesis.glo'.
+./thuthesis.log:Writing glossary file thuthesis.glo 
+./thuthesis.log:No file thuthesis.aux.
+./thuthesis.log:\openout1 = `thuthesis.aux'.
+./thuthesis.log:\openout5 = `thuthesis.out'.
+./thuthesis.log:(./thuthesis.hd)
+./thuthesis.log:\openout6 = `thuthesis.hd'.
+./thuthesis.log:(./thuthesis.dtx
+./thuthesis.log:\openout7 = `thuthesis.toc'.
+./thuthesis.log:\TU/STSong(0)/m/n/10.53937 新 的 开 发 版，| 将 \T1/npxtt/m/n/10.53937 thuthesis.ins[]
+./thuthesis.log:[][]\TU/STSong(0)/m/n/10.53937 ，| \T1/npxtt/m/n/10.53937 thuthesis.dtx[][][]\TU
+./thuthesis.log:/STSong(0)/m/n/10.53937 ，| \T1/npxtt/m/n/10.53937 thuthesis-author-year.bst[][]
+./thuthesis.log:[] \TU/STSong(0)/m/n/10.53937 和 \T1/npxtt/m/n/10.53937 thuthesis-numeric.bst[][
+./thuthesis.log:pxtt/m/n/10.53937 thuthesis.cls[][][]\TU/STSong(0)/m/n/10.53937 ，| \T1/npxtt/m/
+./thuthesis.log:n/10.53937 thuthesis.cfg[][][]\TU/STSong(0)/m/n/10.53937 ，| \T1/npxtt/m/n/10.53
+./thuthesis.log:937 thuthesis-author-year.bst[][][]
+./thuthesis.log:[]\TU/STSong(0)/m/n/10.53937 模 板 核 心 文 件 有：| \T1/npxtt/m/n/10.53937 thuthesis.c
+./thuthesis.log:ls[][][]\TU/STSong(0)/m/n/10.53937 ，| \T1/npxtt/m/n/10.53937 thuthesis.cfg[][][
+./thuthesis.log:]\TU/STSong(0)/m/n/10.53937 ，| \T1/npxtt/m/n/10.53937 thuthesis-numeric.bst[][]
+./thuthesis.log:[] \TU/STSong(0)/m/n/10.53937 和 \T1/npxtt/m/n/10.53937 thuthesis-author-year.bs
+./thuthesis.log:No file thuthesis.gls.
+./thuthesis.log:No file thuthesis.ind.
+./thuthesis.log: (./thuthesis.aux)
+./thuthesis.log:Output written on thuthesis.pdf (51 pages).
+./main.aux:\bibstyle{thuthesis-author-year}
+./main.aux:\bibcite{thuthesis}{{1}{2017}{{Xue}}{{}}}
+./main.log:(./thuthesis.cls
+./main.log:Document Class: thuthesis 2018/9/3 5.4.3 CUG Thesis Template
+./main.log:(./thuthesis.cfg
+./main.log:File: thuthesis.cfg 2017/12/24 5.4.3 Tsinghua University Thesis Template
+./main.log:(./thuthesis.sty
+./main.log:Package: thuthesis 2007/11/30 4.1 put any packages you would like to use here
+./main.blg:The style file: thuthesis-numeric.bst

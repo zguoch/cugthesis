@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: data/chap01.aux
+The style file: thuthesis-author-year.bst
+A level-1 auxiliary file: data/appendix01.aux
+Database file #1: ref/refs.bib
+Warning--I didn't find a database entry for "tao2012first"
+Warning--I didn't find a database entry for "hasenclever2014hybrid"
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 10 entries,
+            3741 wiz_defined-function locations,
+            900 strings with 8708 characters,
+and the built_in function-call counts, 93482 in all, are:
+= -- 12420
+> -- 9098
+< -- 8953
++ -- 3296
+- -- 162
+* -- 586
+:= -- 10495
+add.period$ -- 30
+call.type$ -- 10
+change.case$ -- 82
+chr.to.int$ -- 2912
+cite$ -- 20
+duplicate$ -- 235
+empty$ -- 623
+format.name$ -- 232
+if$ -- 28045
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 59
+num.names$ -- 40
+pop$ -- 159
+preamble$ -- 1
+purify$ -- 72
+quote$ -- 0
+skip$ -- 11983
+stack$ -- 0
+substring$ -- 3333
+swap$ -- 2
+text.length$ -- 130
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 159
+warning$ -- 0
+while$ -- 177
+width$ -- 0
+write$ -- 165
+(There were 2 warnings)
