@@ -8,8 +8,7 @@
 %% 
 %% This is a generated file.
 %% 
-%% THe cugthesis template is based on thuthesis created by Ruini Xue
-%% Copyright (C) 2018-2020 by Zhikui Guo <zguoch@gmail.com>
+%% Copyright (C) 2005-2018 by Ruini Xue <xueruini@gmail.com>
 %% 
 %% This work may be distributed and/or modified under the
 %% conditions of the LaTeX Project Public License, either version 1.3
@@ -29,8 +28,8 @@
 \NeedsTeXFormat{LaTeX2e}[1999/12/01]
 \ProvidesClass{cugthesis}
 [2018/9/3 5.4.3 CUG Thesis Template]
-\hyphenation{Cug-Thesis}
-\def\cugthesis{\textsc{CugThesis}}
+\hyphenation{cug-Thesis}
+\def\cugthesis{\textsc{cugThesis}}
 \def\version{5.4.3}
 
 \RequirePackage{kvoptions}
@@ -127,7 +126,7 @@
   bookmarksopenlevel=1,
   breaklinks=true,
   colorlinks=true,
-  linkcolor=green!55!blue,
+  linkcolor=black, %green!55!blue,
   anchorcolor=red,
   citecolor=blue!55!black,
   plainpages=false,
@@ -380,7 +379,10 @@
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{2}
 \renewcommand\tableofcontents{%
-  \cug@chapter*[]{\contentsname}
+  % \cug@chapter*[]{\contentsname}
+  \ifcug@bachelor\clearpage\else\cleardoublepage\fi
+\begin{center}\sanhao\heiti\contentsname\end{center}
+  \par
   \ifcug@bachelor\xiaosi[1.667]\else\xiaosi[1.65]\fi\@starttoc{toc}\normalsize}
 \ifcug@arialtoc
   \def\cug@toc@font{\sffamily}
@@ -466,6 +468,8 @@
 \cug@def@term{cfirstdiscipline}
 \cug@def@term{cseconddiscipline}
 \cug@def@term{postdoctordate}
+\newcommand{\cug@@CV}[1]{\long\gdef\cug@CV{#1}}
+\newenvironment{CV}{\Collect@Body\cug@@CV}{}
 \newcommand{\cug@@cabstract}[1]{\long\gdef\cug@cabstract{#1}}
 \newenvironment{cabstract}{\Collect@Body\cug@@cabstract}{}
 \newcommand{\cug@@eabstract}[1]{\long\gdef\cug@eabstract{#1}}
@@ -780,23 +784,72 @@
     \end{center}
 
   \end{center}}
+\newcommand{\cug@original@mk}{%
+  \ifcug@bachelor\vspace*{0.2cm}\else\vspace*{0.42cm}\fi % shit code!
+  \begin{center}\sanhao\heiti\cug@origintitle\end{center}
+  \ifcug@bachelor\vskip5pt\else\vskip40pt\sihao[2.03]\fi\par
+  \cug@originalstatement\par
+  % \textbf{\cug@authorizationaddon}\par
+  \ifcug@bachelor\vskip0.7cm\else\vskip1.0cm\fi
+  \ifcug@bachelor
+    \indent\mbox{\cug@authorsig\cug@underline\relax%
+    \cug@teachersig\cug@underline\relax\cug@frontdate\cug@underline\relax}
+  \else
+  \begingroup
+  \parindent0pt
+  \begin{flushright}
+    \vspace{1cm}
+    \cug@authorsig\cug@underline[8em]\relax\hspace*{1cm}\\[3pt]
+    \vspace{1cm}
+    % \cug@frontdate\cug@underline[7em]\relax\hspace*{1cm}
+    \cug@frontdate \hspace{3em}年\hspace{3em}月\hspace{3em}日
+  \end{flushright}
+  \endgroup
+  \fi
+  }
+  \newcommand{\cug@commitment@mk}{%
+  \ifcug@bachelor\vspace*{0.2cm}\else\vspace*{0.42cm}\fi % shit code!
+  \begin{center}\sanhao\heiti\cug@commitmenttitle\end{center}
+  \ifcug@bachelor\vskip5pt\else\vskip40pt\sihao[2.03]\fi\par
+  \cug@commitment\par
+  % \textbf{\cug@authorizationaddon}\par
+  \ifcug@bachelor\vskip0.7cm\else\vskip1.0cm\fi
+  \ifcug@bachelor
+    \indent\mbox{\cug@authorsig\cug@underline\relax%
+    \cug@teachersig\cug@underline\relax\cug@frontdate\cug@underline\relax}
+  \else
+  \begingroup
+  \parindent0pt
+  \begin{flushright}
+    \vspace{1cm}
+    \cug@teachersig\cug@underline[8.5em]\relax\hspace*{1cm}\\[3pt]
+    \vspace{1cm}
+    % \cug@frontdate\cug@underline[7em]\relax\hspace*{1cm}
+    \cug@frontdate \hspace{3em}年\hspace{3em}月\hspace{3em}日
+  \end{flushright}
+  \endgroup
+  \fi
+  }
 \newcommand{\cug@authorization@mk}{%
   \ifcug@bachelor\vspace*{0.2cm}\else\vspace*{0.42cm}\fi % shit code!
-  \begin{center}\erhao\heiti\cug@authtitle\end{center}
+  \begin{center}\sanhao\heiti\cug@authtitle\end{center}
   \ifcug@bachelor\vskip5pt\else\vskip40pt\sihao[2.03]\fi\par
   \cug@authorization\par
-  \textbf{\cug@authorizationaddon}\par
+  % \textbf{\cug@authorizationaddon}\par
   \ifcug@bachelor\vskip0.7cm\else\vskip1.0cm\fi
   \ifcug@bachelor
     \indent\mbox{\cug@authorsig\cug@underline\relax%
     \cug@teachersig\cug@underline\relax\cug@frontdate\cug@underline\relax}
   \else
     \begingroup
-      \parindent0pt\xiaosi
-      \hspace*{1.5cm}\cug@authorsig\cug@underline[7em]\relax\hfill%
-                     \cug@teachersig\cug@underline[7em]\relax\hspace*{1cm}\\[3pt]
-      \hspace*{1.5cm}\cug@frontdate\cug@underline[7em]\relax\hfill%
-                     \cug@frontdate\cug@underline[7em]\relax\hspace*{1cm}
+    \parindent0pt
+    \begin{flushright}
+      \vspace{1cm}
+      \cug@authorsig\cug@underline[8em]\relax\hspace*{1cm}\\[3pt]
+      \vspace{1cm}
+      % \cug@frontdate\cug@underline[7em]\relax\hspace*{1cm}
+      \cug@frontdate \hspace{3em}年\hspace{3em}月\hspace{3em}日
+    \end{flushright}
     \endgroup
   \fi}
 % 封面
@@ -819,6 +872,43 @@
       \ifcug@postdoctor\relax\else
         \cleardoublepage\cug@engcover
     \fi\fi
+    % 原创性申明
+    \ifcug@postdoctor\relax\else%
+      \ifcug@bachelor\clearpage\else\cleardoublepage\fi%
+      \IfNoValueTF{#1}{%
+        \ifcug@bachelor\cug@original@mk\else%
+          \begin{list}{}{%
+            \topsep\z@%
+            \listparindent\parindent%
+            \parsep\parskip%
+            \setlength{\leftmargin}{0.9mm}%
+            \setlength{\rightmargin}{0.9mm}}%
+          \item[]\cug@original@mk%
+          \end{list}%
+        \fi%
+      }{%
+        \includepdf{#1}%
+      }%
+    \fi
+    % 导师承诺书
+    \ifcug@postdoctor\relax\else%
+      \ifcug@bachelor\clearpage\else\cleardoublepage\fi%
+      \IfNoValueTF{#1}{%
+        \ifcug@bachelor\cug@commitment@mk\else%
+          \begin{list}{}{%
+            \topsep\z@%
+            \listparindent\parindent%
+            \parsep\parskip%
+            \setlength{\leftmargin}{0.9mm}%
+            \setlength{\rightmargin}{0.9mm}}%
+          \item[]\cug@commitment@mk%
+          \end{list}%
+        \fi%
+      }{%
+        \includepdf{#1}%
+      }%
+    \fi
+    % 使用授权说明
     \ifcug@postdoctor\relax\else%
       \ifcug@bachelor\clearpage\else\cleardoublepage\fi%
       \IfNoValueTF{#1}{%
@@ -838,32 +928,59 @@
     \fi
   \end{titlepage}
   \normalsize
+  % 作者简介：需要清除页眉和页码
+  \cug@makeresume
+  % 摘要
   \cug@makeabstract
   \let\@tabular\cug@tabular}
 \newbox\cug@kw
+\newcommand{\cug@makeresume}
+  {%
+      \ifcug@bachelor\clearpage\else\clearpage\fi
+      % \cug@chapter*[]{\cug@resume@title} % no tocline
+      \ifcug@bachelor\vspace*{0.2cm}\else\vspace*{0.42cm}\fi % shit code!
+
+      \begin{center}\sanhao\heiti\cug@resume@title\end{center}
+      \ifcug@bachelor\vskip5pt\else\vskip40pt\sihao[2.03]\fi\par
+      % 作者简介
+      \xiaosi
+      \cug@CV
+      
+  }
 \newcommand\cug@put@keywords[2]{%
   \begingroup
     \setbox\cug@kw=\hbox{#1}
     \ifcug@bachelor\indent\else\noindent\hangindent\wd\cug@kw\hangafter1\fi%
     \box\cug@kw#2\par
   \endgroup}
-\newcommand{\cug@makeabstract}{%
-  \ifcug@bachelor\clearpage\else\cleardoublepage\fi
-  \cug@chapter*[]{\cabstractname} % no tocline
-  \ifcug@bachelor
-    \pagestyle{cug@plain}
-  \else
-    \pagestyle{cug@headings}
-  \fi
-  \pagenumbering{arabic}
-  \cug@cabstract
-  \vskip12bp
-  \cug@put@keywords{\textbf\cug@ckeywords@title}{\cug@ckeywords}
-  \cug@chapter*[]{\eabstractname} % no tocline
-  \cug@eabstract
-  \vskip12bp
-  \cug@put@keywords{%
-    \textbf{\ifcug@bachelor Keywords:\else Key words:\fi\enskip}}{\cug@ekeywords}}
+\newcommand{\cug@makeabstract}
+  {%
+    \ifcug@bachelor\clearpage\else\cleardoublepage\fi
+    % \cug@chapter*[]{\cabstractname} % no tocline
+  \begin{center}\xiaoer\heiti\cabstractname\end{center}
+
+    \ifcug@bachelor
+      \pagestyle{cug@plain}
+    \else
+      \pagestyle{empty}
+    \fi
+    % \pagestyle{empty}
+    % \pagenumbering{arabic}
+    \xiaosi
+    \cug@cabstract
+    \vskip12bp
+    \cug@put@keywords{\textbf\cug@ckeywords@title}{\cug@ckeywords}
+    % \cug@chapter*[]{\eabstractname} % no tocline
+    % 新开一页
+    \ifcug@bachelor\clearpage\else\clearpage\fi
+  \begin{center}\xiaoer\rmfamily\textbf{\eabstractname}\end{center}
+    \par
+    \xiaosi
+    \cug@eabstract
+    \vskip12bp
+    \cug@put@keywords{%
+      \textbf{\ifcug@bachelor Keywords:\else Key words:\fi\enskip}}{\cug@ekeywords}
+  }
 \newenvironment{denotation}[1][2.5cm]{%
   \cug@chapter*[]{\cug@denotation@name} % no tocline
   \vskip-30bp\xiaosi[1.6]\begin{cug@denotation}[labelwidth=#1]
@@ -977,7 +1094,9 @@
 \newcommand{\resumeitem}[1]{%
   \vspace{24bp}{\sihao\heiti\centerline{#1}}\par\vspace{6bp}}
 \newcommand{\researchitem}[1]{%
-  \vspace{32bp}{\sihao\heiti\centerline{#1}}\par\vspace{14bp}}
+  \vspace{32bp}{\xiaosi\heiti\centerline{#1}}\par\vspace{14bp}}
+\newcommand{\cvitem}[1]{%
+\vspace{32bp}{\xiaosi\noindent\heiti{#1}}\par\vspace{14bp}}
 \newlist{publications}{enumerate}{1}
 \setlist[publications]{label=[\arabic*],align=left,nosep,itemsep=8bp,
   leftmargin=10mm,labelsep=!,before=\xiaosi[1.26],resume}

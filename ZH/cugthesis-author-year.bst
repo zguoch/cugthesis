@@ -1256,7 +1256,7 @@ FUNCTION {map}
 
 FUNCTION {mastersthesis}
 { is.in.chinese
-    { "\thumasterbib{}" }
+    { "\cugmasterbib{}" }
     { "D" }
   if$
  set.mark
@@ -1270,7 +1270,7 @@ FUNCTION {newspaper}
 
 FUNCTION {phdthesis}
 { is.in.chinese
-    { "\thuphdbib{}" }
+    { "\cugphdbib{}" }
     { "D" }
   if$
  set.mark

@@ -1,38 +1,25 @@
 \documentclass[degree=doctor,secret]{cugthesis}
 % 选项：
 %   degree=[bachelor|master|doctor|postdoctor], % 必选
-%   secret,                                     % 可选
+%   secret,                                       % 可选
 %   pifootnote,                                 % 可选（建议打开）
-%   openany|openright,                          % 可选，基本不用
-%   arial,                                      % 可选，基本不用
-%   arialtoc,                                   % 可选，基本不用
-%   arialtitle                                  % 可选，基本不用
+%   openany|openright,                	  % 可选，基本不用
+%   arial,                                      	% 可选，基本不用
+%   arialtoc,                                     % 可选，基本不用
+%   arialtitle                                     % 可选，基本不用
 
 % 所有其它可能用到的包都统一放到这里了，可以根据自己的实际添加或者删除。
 \usepackage{threeparttable} %三线表，带表注释
 
 %**************************一些使用量很高的变量定义**********************************
 %\def\ca{{\text{Ca}^{2+}}}   			%公式: 使用时必须放在$$内当公式用
-%\def\so4{{\text{SO}_4^{2-}}}
-%\def\anhydrite{$\text{CaSO}_4$}         %硬石膏的化学式
-%\def\pyrite{$\text{FeS}_2$}                   %黄铁矿的化学式
-%\def\chalcopyrite{$\text{CuFeS}_2$}    %黄铁矿的化学式
-%\def\cca{$C_{\ca}$} 					        %Ca的浓度
-%\def\cso4{$C_{\so4}$}                        %SO4的浓度
-%\def\cfe{$C_{\text{Fe}}$}                  %Fe的浓度
-%\def\cs{$C_{\text{S}}$} 					   %S的浓度
-%\def\ccu{$C_{\text{Cu}}$}                    %Cu的浓度
-%\def\ksp{$K_{sp}$}                                   %Ksp
-%\def\ssd{$^{\circ}$C } 			%摄氏度：直接使用，最好后面空一格
 %****************************************************************************************
 
 % 定义所有的图片文件在 figures 子目录下
 \graphicspath{{figures/}{../../figures/}}
 
 % 可以在这里修改配置文件中的定义。导言区可以使用中文。
-
 \begin{document}
-
 
 %%% 封面部分
 \frontmatter
@@ -54,7 +41,7 @@
 %%% 其它部分
 \backmatter
 
-%% 本科生要这几个索引，研究生不要。选择性留下。
+%% 根据情况选择性留下。
 % 插图索引
 \listoffigures
 % 表格索引
@@ -82,10 +69,4 @@
 	\include{chapters/appendix01}
 \end{appendix}
 
-%% 个人简历
-%\include{data/resume}
-
-%% 本科生进行格式审查是需要下面这个表格，答辩可能不需要。选择性留下。
-% 综合论文训练记录表
-%\includepdf[pages=-]{scan-record.pdf}
 \end{document}
