@@ -300,7 +300,7 @@
   \noalign{\ifnum0=`}\fi\hrule \@height #1 \futurelet
     \reserved@a\@xhline}
 \def\cug@title@font{%
-  \ifcug@arialtitle\sffamily\else\heiti\fi}
+  \ifcug@arialtitle\rmfamily\else\heiti\fi}
 \AtBeginDocument{%
   \pagestyle{cug@empty}
   \renewcommand{\chaptermark}[1]{\@mkboth{\CTEXthechapter\hskip\ccwd#1}{}}}
@@ -322,7 +322,6 @@
     % 章标题字体设置
     format={\centering\cug@title@font\ifcug@bachelor\xiaosan[1.333]\else\sanhao[1]\bfseries\fi},
     nameformat=\relax,
-     numberformat=\zhnumber,
     titleformat=\cug@chapter@titleformat,
     lofskip=0pt,
     lotskip=0pt,
@@ -730,7 +729,7 @@
     \parbox[t][8cm][t]{\textwidth}{
       \renewcommand{\baselinestretch}{1.5}
       \begin{center}
-        \erhao[1.1]\bfseries\sffamily\cug@etitle%
+        \erhao[1.1]\bfseries\rmfamily\cug@etitle%
       \end{center}}
     % 封面标题之下的信息（英文）
       % \vskip 5bp
